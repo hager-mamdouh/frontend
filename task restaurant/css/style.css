@@ -1,0 +1,139 @@
+/* @charset "UTF-8";  */
+
+/*reset  3shan bi7ot s3at margin w padding lw7do*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*main style*/
+html , body{
+    font-family: 'Nerko One', cursive;
+    line-height: 1.8rem;
+}
+ul , ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*utility classes*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clear{clear: both}
+.text-white{color: white;}
+.text-dark{color: #2f2f2f;}
+.bg-dark{background-color: #2f2f2f;}
+.bg-white{background-color: white;}
+.text-center{text-align: center;}
+.bg-grey{background: rgb(160, 158, 158);}
+
+/*navbar style*/
+.navbar{
+    padding: 0.7rem;
+}
+.navbar .nav-items{
+    display: flex;
+  /*  flex-direction: row;  da m3mol by default*/
+    justify-content: space-between;
+}
+.navbar .nav-items .brand a{
+    color:white;
+    font-size:2rem ;
+}
+.navbar .nav-items .links ul li{
+    display: flex;
+   display: inline;
+    padding: 0 8px;
+}
+
+.navbar .nav-items .links ul li a:hover{
+    color:#FED136;
+}
+
+/*showcase style*/
+.showcase{
+    height: 570px;
+    /*background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;*/
+    background: url('../images/kitchen.webp') no-repeat center center/cover;
+}
+.showcase .showcase-content{
+    padding-top: 150px;
+}
+.showcase .showcase-content .sub-heading{
+    font-size: 1rem;
+    word-spacing: 6px;
+    padding: 25px 0;
+    text-shadow: .5px .5px .5px .5px white;
+}
+.showcase .showcase-content hr,
+.about hr{
+    width: 6%;
+    margin: 10px auto;
+    border: 3px solid #FED136;
+}
+.showcase .showcase-content .mashead-heading{
+    font-size: 3rem;
+    font-weight: bold;  
+    text-transform: capitalize;
+    word-spacing: 16px;
+    text-shadow: .5px .5px .5px .5px white;
+    padding: 16px 0;
+}
+.showcase .showcase-content button{
+    background-color: grey;
+    color: #fed136;
+    border: none;
+    font-size: 1.3rem;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+/*about*/
+.about{
+    padding: 65px;
+}
+.about h2{
+    font-size: 2rem;
+}
+.about hr{
+    margin: 25px auto;
+}
+
+
+/*services*/
+
+
+.services .row{
+    display: flex;
+    
+}
+.services .row .col{
+    padding: 20px;
+}
+.services .row .col .icon i{
+    padding: 35px;
+    border-radius: 50%;
+}
+.services .row .col h3{
+    margin: 25px 0;
+    font-size:1.8rem ;
+}
+
+/*footer style*/
+.footer .footer-copyright{
+    padding: 20px;
+}
+
