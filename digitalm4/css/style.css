@@ -1,0 +1,369 @@
+@charset 'utf-8';
+
+/* Main Style*/
+html , body{
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar{
+    padding: 30px;
+    background-color: rgb(36, 41, 48);
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar .collapse ul a{
+    margin: auto 20px;
+}
+.navbar .collapse .navbar-nav .nav-item a:hover{
+    color: grey;
+}
+.navbar .collapse ul{
+    font-size: 0.9rem;
+}
+.d-flex button,
+.price button,
+.footer button{
+    background: rgb(132, 138, 189);
+    border: none;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    }
+    .d-flex button:hover,
+    .price button:hover,
+    .footer button:hover{
+        border: 3px solid rgb(176, 180, 221);
+        color: white;
+        padding:6px;
+        padding-left: 18px;
+    padding-right: 18px;
+    }    
+
+/*showcase*/
+.showcase{
+    background: url(../images/DigitalM4/06.jpg) ;
+    height: 600px;
+}    
+.showcase h1{
+    padding-top: 200px;
+    font-size: 3.2rem;
+    text-shadow: 1px 1px 1px #ddd;
+    line-height: 4rem;  
+}
+.showcase button{
+    background: white;
+    color: grey;
+    border-radius: 40%;
+    padding: 15px;
+}
+.showcase button:hover{
+    border: 3px solid rgb(161, 165, 206);
+    color: grey;
+    padding-top: 13px;
+}
+
+/*service*/
+ .cards{
+    width: 85%;
+    margin: auto auto;
+}
+.cards h2,
+.performance h2,
+.client h2,
+.casestudy h2{
+    font-size: 0.7rem;
+    background:rgb(239, 239, 241);
+    padding: 15px;
+    margin: 40px auto ;
+    width: 10%;
+    border-radius: 30%;
+    color: rgb(132, 138, 189);
+}
+.cards .content p{
+    font-size: 1.95rem;
+    margin: auto 50px;
+    line-height: 2.4rem;
+}
+.cards .col-md-4 .image img{
+    height: 210px;
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px ;
+}
+.cards .col-md-4 h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cards .col-md-4 p{
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.cards .col-md-4 a{
+    color: grey;
+    text-align: center;
+    font-size: 1rem;
+    transition: .3s ease;
+   }
+   .cards .col-md-4 a:hover {
+       padding-right: 10px;
+       color: black;
+   }
+   
+/*explore*/
+.explore,
+.faq,
+.performance,
+.progresses,
+.client,
+.price
+{
+    margin-top: 200px ;
+}
+.explore .title h2,
+.faq .content h2,
+.price h2{
+    width: 23%;
+    text-align: center;
+    font-size: 0.7rem;
+    background:rgb(239, 239, 241);
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 30%;
+    color: rgb(132, 138, 189);
+}
+.explore .title p,
+.faq .content p,
+.performance p,
+.casestudy  p,
+.progresses p,
+.client p,
+.price p
+{
+    font-size: 2rem;
+}
+.explore .content h3{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+/*faq*/
+.faq .content h2
+{
+    width: 10%;
+}
+.faq .content .links a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+       
+}
+.faq .content .links a:hover{
+  color: rgb(132, 138, 189);
+}
+
+.faq .content .links i{
+    color: rgb(132, 138, 189);
+}
+
+/*performance*/
+.performance{
+    background: url(../images/DigitalM4/06.jpg);
+    height: 700px;
+    opacity: .7;
+   
+}
+
+.performance .content h2{
+    padding: 10px;
+    opacity: none;
+    color: black;
+    background: white;
+}
+.performance .content{
+    padding-top:200px ;
+}
+.performance .content a i{
+    padding: 30px;
+    border-radius: 50%;
+}
+.performance .content a i:hover{
+    border: 5px solid rgb(163, 167, 197) ;
+    padding: 28px ;
+}
+/* casestudy*/
+.casestudy  h2{
+    width: 10%;
+    font-size: .9rem;
+    margin-top: 90px;
+}
+.casestudy img {
+height: 300px;
+width: 350px;
+}
+.casestudy .carousel-item img{
+    padding: 0px 0px;
+}
+.casestudy .carousel-inner p{
+    padding-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.casestudy ol li{
+    background: grey;
+   
+}
+.casestudy .carousel-item .row .col a:hover{
+    opacity: .5;
+}
+
+
+/*services*/
+.services{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.services h2{
+    padding: 30px;
+
+}
+.services .col-md-4 h5,
+.services .col-md-4 p{
+  text-align: left;
+}
+.services .col-md-4 h5{
+    font-size: 1rem;
+}
+.services .col p{
+    font-size: 0.8rem;
+}
+
+.services .col-md-4 i{
+    color: rgb(103, 113, 206);
+    text-align: right;
+}
+.services .row{
+ padding-top: 20px;
+}
+
+/*progress*/
+.progresses h2{
+    background: NONE;
+    font-size: 1rem;
+    color: rgb(132, 138, 189);
+
+}
+.progress .col img{
+    border-image: url(../images/DigitalM4/apple.png);
+    
+}
+.progresses .progress {
+    margin-bottom: 10px;
+}
+.progresses .comment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+/* client*/
+.client .carousel-inner i {
+  color: rgb(132, 138, 189);
+  opacity: .5;
+}
+.client .row{
+padding-top: 50px;
+}
+.client .carousel-inner .text{
+   font-size: 1.7rem;
+   color: grey;
+   padding-bottom: 20px;
+}
+.client .carousel-inner .title{
+    color: rgb(145, 144, 144);
+    font-size: 1.1rem;
+}
+.client .carousel-inner .person{
+    font-size: 1.3rem;
+}
+
+
+/*price*/
+.price .content{
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+    
+    color: grey;
+}
+.price .title .num{
+    color: black;
+    font-size: 4rem;
+}
+
+.price .num h6{
+    font-size: 3rem;
+}
+.price h3{
+ font-size: 2rem;
+}
+.price  p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: grey;
+}
+.price  .num {
+    color: black;
+}
+.price button{
+    border: none;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.price button:hover{
+    padding-top: 7px ;
+    padding-bottom: 7px;
+}
+/* footer*/
+.footer{
+    background: rgb(16, 47, 98);
+    padding-top: 150px;
+    margin-top: 80px;
+}
+.footer h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.footer input{
+ background: rgb(36, 63, 107);
+ color: white;
+ border: none;
+ font-size: 1.1rem;
+ width: 160px;
+}
+.footer input[type="email"]::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+.footer .col p{
+    color: rgb(212, 209, 209);
+}
+.footer .copy{
+    padding-top: 130px;
+    font-size: .9rem;
+    padding-bottom: 90px ;
+}
