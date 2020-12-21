@@ -1,0 +1,17 @@
+@mixin hr {
+    width: 5%;
+    border: 3px solid yellow;
+    margin: 25px auto;
+    opacity: none;
+
+}
+@mixin head-text {
+    font-size: 2rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+@mixin p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}

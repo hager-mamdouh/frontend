@@ -1,0 +1,118 @@
+javascript => 010101000011110000111100000000
+front end 
+backend = node.js , express
+mobile app => reactNative => cross platform => android , ios 
+electron => desktop app
+
+
+=> Low Level => Ml (0 , 1)
+=> Intermidiate Level => Asseblemy mov ax , 5 [assembler]
+=> High Level => C# , php
+console.log("Hello Ide Full Stack"); [interpreter , comipler]
+
+
+console.log("Welcome Javascript");
+/*
+js case sensitive
+variable => container that hold a value 
+var varName = value;
+let varName = value;
+*/
+
+/*var username = "John"; */
+/*
+var num1 = 10;
+var nu1m2 = 50;
+let password = "123";
+var username = "john",
+    password = "123";
+let name , age , address;
+
+if(true){
+   let x = 10;
+    console.log(x); 
+}
+
+function func(){
+    let n = 2;
+}
+
+console.log(n);
+
+constant
+var user = "ezzat";
+user = "mostafa";
+console.log(user);
+
+const pi = 3.14;
+*/
+
+
+// var function scoped
+// Everything in js is object
+/* string number boolean object null undefined*/
+var username = "ali"; // string
+var x = 10; // number
+isMale = false; // boolean
+var studenst = ['mostafa' , 'hager' , 'eman' , 'ahmed']; // Object
+var car = {
+    carName : "Bmw" , 
+    price : 500000 , 
+    carModel : 2020
+}
+console.log(car);
+var car2 = ["Bmw" , 500000 , 2020];
+console.log(car2);
+
+
+var y = null;
+
+console.log(y); // undefined
+
+/* Arthmetic Operator => + - * / %
+    increment ++ decrement -- => i ++ => i = i+ 1
+    post increment / pre increment
+    post decrement / pre decrement
+    var i = 0;
+console.log(i++); // console.log(i) 0 then i = i + 1
+console.log(i--);  //1 , 1 - 1 = 0
+console.log(i); 
+var j = 0;
+console.log(++j); // j = j + 1 then log j
+console.log(j);
+
+Assignment Operator
+ = += -= *= /= %=
+ var x = 5;
+var y = x ;
+
+var i = 0;
+i += 5; // i =+ 5
+
+string operator [concatination]
+Welcome Ya ezzat
+let username = prompt("Enter Username"); // string ""
+console.log("Welcome Ya " + username); // concat
+
+Logical Operator
+// and &&  or || not !
+Comparison Operators
+> < >= <= == === != !== 
+*/
+
+
+
+
+task 1
+===========
+Compute The Net Salary Of An Employee
+const taxRatio = .1;
+let salary = parseInt(prompt('Enter Salary'));
+let netSalary = salary - (salary * taxRatio);
+console.log(netSalary);
+
+Assignments
+=============
+Compute area and circumference of an circle [pi * Math.pow(r , 2)]
+check the number is even or odd
+Javascript compiled or interpreted [explain with coding]

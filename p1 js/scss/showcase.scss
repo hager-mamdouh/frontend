@@ -1,0 +1,12 @@
+.showcase {
+    height: 400px;
+   h1{
+    @include head-text;
+   }
+   hr{
+    @include hr;
+   } 
+   p{
+       @include p;
+   }
+}
